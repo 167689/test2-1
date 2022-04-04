@@ -16,21 +16,6 @@ class Main {
       }
        System.out.println();
     }
-    for(c=0;c<2;c++)
-    {
-      for(x=0;x<3;x++)
-      {
-      if(x<(3)||x>(3)) 
-      {
-      System.out.print(" "); 
-      }
-        else 
-      {
-        System.out.print("*");
-      }
-      }
-       System.out.println();
-    }
     
   }
 }
