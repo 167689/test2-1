@@ -1,24 +1,30 @@
 import java.util.Scanner;
 class Main {
   public static void main(String[] args) {
-    int v,b;
+    int c,b;
+    char v='q';
      Scanner z = new Scanner(System.in);
-        System.out.println("Podaj tekst z zamianą na duże");
-        String x = z.next();
-        System.out.println("Podaj tekst z zamianą na małe ");
-        String c=z.next();
-        for(v=0;v<x.length();v++)
+       for(c=0;c<10000;c++)
         {
-        x=(x.toUpperCase());
+           String x = z.next();
+          
+          if (x.contains("q"))
+          {
+            b=x.length()-1;
+             if (x.contains("q"))
+          {
+            b=x.length()-1;
+            
           }
-    for(b=0;b<c.length();b++)
-        {
-        c=(c.toLowerCase());
-          }
+             else
+          {
         System.out.println(x);
-    System.out.println(c);
-    System.out.println(v);
-    System.out.println(b);
+          }}
+          else
+          {
+        System.out.println(x);
+          }
+          }
 
         z.close();
   }
